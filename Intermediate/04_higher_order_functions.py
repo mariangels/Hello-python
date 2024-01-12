@@ -31,7 +31,7 @@ def sum_ten(original_value):
 
 add_closure = sum_ten(1)
 print(add_closure(5))
-print((sum_ten(5))(1))
+print((sum_ten(1))(5))
 
 ### Built-in Higher Order Functions ###
 
@@ -63,7 +63,7 @@ print(list(filter(lambda number: number > 10, numbers)))
 
 
 def sum_two_values(first_value, second_value):
+    print("Vamos a sumar: " + str(first_value) + " and " + str(second_value))
     return first_value + second_value
-
 
 print(reduce(sum_two_values, numbers))

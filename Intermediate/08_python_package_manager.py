@@ -7,7 +7,7 @@
 # pip install pip
 # pip --version
 
-# pip install numpy
+# py -m pip install numpy
 import pandas
 from mypackage import arithmetics
 import requests
